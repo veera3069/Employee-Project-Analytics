@@ -34,10 +34,9 @@ Employees can work on multiple projects
 Complex Joins
 CTEs (Common Table Expressions)
 Window Functions
-DENSE_RANK()
-NTILE()
+Sub Queries
 Analytical Filtering
-Aggregations (SUM, COUNT, AVG)
+Aggregations (SUM, COUNT, AVG, MIN, MAX)
 NULL Handling
 
 📊 Analytics Performed
@@ -46,9 +45,12 @@ NULL Handling
 🔹 Project Performance Analysis
 🔹 Advanced Business Insights
 
-📈 Sample Insights
+📈 Business Insights
 
-
+🔹 Identifies employees contributing to multiple projects while being the highest-paid member in at least one. This highlights high-impact talent with cross-      project influence and strong compensation positioning.
+🔹 Detects projects whose total salary cost exceeds the company’s average project cost. It helps management monitor cost-intensive initiatives and control budget allocation.
+🔹 Identifies employees earning above their department’s average salary using window functions. This helps detect premium-paid roles and internal pay differentiation within teams.
+🔹 Identifies the department with the highest percentage of employees not assigned to any project. It highlights underutilized teams and supports workforce optimization decisions.
 
 🎯 What This Project Demonstrates
 
@@ -60,5 +62,5 @@ Data-driven analytical thinking
 👤 Author
 
 Veera Sai
-Aspiring Data Analyst
+- Aspiring Data Analyst,
 Focused on SQL, analytics, and business problem-solving.
